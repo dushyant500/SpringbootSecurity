@@ -1,0 +1,10 @@
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    leaseExpirationDurationInSeconds: 10  # The duration after which Eureka considers the instance down
+    leaseRenewalIntervalInSeconds: 6     # The interval at which the client sends heartbeats
+    prefer-ip-address: true
