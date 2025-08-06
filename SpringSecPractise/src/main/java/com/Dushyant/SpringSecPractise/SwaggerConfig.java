@@ -16,7 +16,7 @@ public class SwaggerConfig {
         return new OpenAPI()
                 .info(new Info()
                         .title("E-MALL Services")
-                        .description("This Service is used to manage Mall shops")
+                        .description("This Service is used to manage Mall-shops")
                         .version("1.0.0")
                         .contact(new Contact()
                                 .name("Dushyant Online Firm")
